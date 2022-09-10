@@ -1,27 +1,67 @@
-body {
+* {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.contenedor {
+
+.estilo-navbar {
+    background-color: #353A40;
+    padding-inline: 7rem;
+    font-size: 1.5rem;
+}
+
+.container-header {
     position: relative;
     display: inline-block;
     text-align: end;
 }
 
-.texto-grande {
-    color: white;
-    font-size: 2.3rem;
+.texto-principal {
     position: absolute;
-    font-weight: 500;
-    top: 35%;
-    right: 6.4rem;
+    bottom: 22%;
+    margin-right: 9%;
+    margin-left: 47%;
 }
 
+.mi-titulo {
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 3rem;
+}
 
-.texto-chico {
+.mi-subtitulo {
+    color: aliceblue;
+    font-size: 1.6rem;
+}
+
+.boton-orador {
+    margin-top: 1rem;
+    margin-right: 0.5rem;
     color: white;
-    font-size: 1rem;
-    position: absolute;
-    padding-left: 53%;
-    top: 45%;
-    right: 6.4rem;
+}
+
+.boton-compra {
+    margin-top: 1rem;
+    background-color: #2AA746;
+    color: aliceblue;
+}
+
+.mi-footer {
+    max-width: 100%;
+    background-color: #353A40;
+    padding: 0.1rem;
+}
+
+.fondo-gris-padding {
+    background-color: #353A40;
+    padding-left: 1rem;
+}
+
+.estilo-h3 {
+    text-align: center;
+    margin-top: -1rem;
+}
+
+.mi-h5 {
+    text-align: center;
+    font-weight: 400;
+    margin-top: 0.4rem;
 }
