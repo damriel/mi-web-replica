@@ -2,7 +2,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.estilo-navbar {
+.estilo-navbar-head {
     background-color: #353A40;
     padding-inline: 7rem;
     font-size: 1.5rem;
@@ -64,4 +64,10 @@
     text-align: center;
     font-weight: 400;
     margin-top: 0.4rem;
+}
+
+.estilo-txt-nav-foot {
+    color: white;
+    font-size: 1.3rem;
+    text-align: center;
 }

@@ -9,14 +9,14 @@
     <title>OBJETIVO</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark estilo-navbar fixed-top">
+    <nav class="navbar navbar-expand-xl navbar-dark estilo-navbar-head fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand"><img src="img/codoacodo.png" alt="logo codo a codo" style="width: 100px;"></a>
             <a class="navbar-brand" style="font-size: 1.5rem;">Conf Bs As</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu-header" aria-controls="menu-header" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse" id="menu-header">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link" href="#">La conferencia</a>
@@ -41,7 +41,7 @@
     <div class="container-fluid p-0 container-header">
         <img src="img/ba11.jpg" alt="edificio buenos aires" class="img-fluid" style="filter: brightness(50%);">
         <div class="texto-principal">
-            <div class="mi-titulo">Conf Bs As</div>
+            <div class="mi-titulo d-none d-xl-block">Conf Bs As</div>
             <div class="mi-subtitulo">Bs As llega por primera vez a la Argentina. Un evento para compartir con
             nuestra comunidad el conovimiento y experiencia de los expertos que
             estan creando el futuro de Internet. Ven a conocer a mienbros del
@@ -99,10 +99,10 @@
 
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-6 col-12 p-0">
+            <div class="col-xxl-6 col-12 p-0">
                 <img src="img/honolulu.jpg" alt="Honolulu img" class="mi-footer">
             </div>
-            <div class="col-md-6 col-12 p-0 mi-footer">
+            <div class="col-xxl-6 col-12 p-0 mi-footer">
                 <div class="mi-titulo px-3 pt-3">Bs As - Octubre</div>
                 <div class="mi-subtitulo px-3">Buenos Aires es la provincia y localidad mas grande del estado de Argentina, en los Estados Unidos. Honolulu es la mas sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600km de superficie).</div>
                 <button type="button" class="btn btn-outline-secondary boton-orador m-3">Conocé más</button>
@@ -117,26 +117,55 @@
     <div class="container">
         <form>
             <div class="row" style="justify-content: center;">
-              <div class="col-5">
+              <div class="col-4">
                 <input type="text" class="form-control" placeholder="Nombre" name="nombre">
               </div>
-              <div class="col-5">
+              <div class="col-4">
                 <input type="text" class="form-control" placeholder="Apellido" name="apellido">
               </div>
             </div>
         </form>
         <div class="row" style="justify-content: center;">
-            <div class="col-10">
+            <div class="col-8" style="margin-bottom: 2rem;">
                 <textarea class="form-control mt-3" rows="5" id="comment" name="text" placeholder="Sobre qué quieres hablar?"; style="font-size: 1.5rem;"></textarea>
                 <p style="font-size: 0.8rem;">Recuerda incluir un título para tu charla</p>
-                <button type="button" class="btn btn-success" style="font-size: 1.5rem; color: white; background-color: #96C93E; width: 100%;">Enviar</button>
+                <button type="button" class="btn btn-success border-0" style="font-size: 1.5rem; color: white; background-color: #96C93E; width: 100%;">Enviar</button>
             </div>
         </div>
     </div>
 
-    <div class="container">
-        <p>PIE DE PAGINA</p>
-    </div>
+    <nav class="navbar navbar-expand-lg bg-primary">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse justify-content-center p-3" id="menu-footer">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link px-5 estilo-txt-nav-foot" href="#" >Preguntas<br>frecuentes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-5 estilo-txt-nav-foot" href="#">Contáctanos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-5 estilo-txt-nav-foot" href="#">Prensa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-5 estilo-txt-nav-foot" href="#">Conferencias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-5 estilo-txt-nav-foot" href="#">Términos y<br>condiciónes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-5 estilo-txt-nav-foot" href="#">Privacidad</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-5 estilo-txt-nav-foot" href="#">Estudiantes</a>
+                    </li>
+                </ul>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu-footer" aria-controls="menu-footer" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
