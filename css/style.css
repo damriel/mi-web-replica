@@ -4,8 +4,8 @@
 
 .estilo-navbar-head {
     background-color: #353A40;
-    padding-inline: 7rem;
-    font-size: 1.5rem;
+    padding-inline: 2rem;
+    font-size: 1rem;
 }
 
 .container-header {
@@ -16,7 +16,7 @@
 
 .texto-principal {
     position: absolute;
-    bottom: 22%;
+    bottom: 14%;
     margin-right: 9%;
     margin-left: 47%;
 }
@@ -24,12 +24,12 @@
 .mi-titulo {
     color: aliceblue;
     font-weight: 500;
-    font-size: 3rem;
+    font-size: 2.8rem;
 }
 
 .mi-subtitulo {
     color: aliceblue;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
 }
 
 .boton-orador {
@@ -68,6 +68,13 @@
 
 .estilo-txt-nav-foot {
     color: white;
-    font-size: 1.3rem;
-    text-align: center;
+}
+
+.dot-ul {
+    text-decoration-line: underline;
+    text-decoration-style: dotted; 
+}
+
+.mi-bg-footer {
+    background-color: #1E5170;
 }
