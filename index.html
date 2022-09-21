@@ -41,25 +41,28 @@
     <div class="container-fluid p-0 container-header">
         <img src="img/ba1.jpg" alt="edificio buenos aires" class="img-fluid" style="filter: brightness(50%);">
         <div class="texto-principal">
-            <div class="mi-titulo d-none d-md-block">Conf Bs As</div>
-            <div class="mi-subtitulo d-none d-xl-block">
+            <div class="mi-titulo d-none d-sm-block">Conf Bs As</div>
+            <div class="mi-subtitulo d-none d-lg-block">
                 Bs As llega por primera vez a la Argentina. Un evento para compartir con
                 nuestra comunidad el conovimiento y experiencia de los expertos que
                 estan creando el futuro de Internet. Ven a conocer a mienbros del
                 evento, a otros estudiantes de Codo a Codo y los oradores del primer
                 nivel que tenemos para ti. Te esperamos!
             </div>
-            <button type="button" class="btn btn-outline-secondary boton-orador mi-subtitulo border-white border-2 d-none d-sm-inline-block">
+            <button type="button" class="btn btn-outline-secondary boton-orador mi-subtitulo border-white border-2 d-none d-lg-inline-block">
                 Quiero ser orador
             </button>
-            <button type="button" class="btn boton-compra mi-subtitulo d-none d-sm-inline-block">
+            <button type="button" class="btn boton-compra mi-subtitulo d-none d-lg-inline-block">
                 Comprar tickets
             </button>
         </div>
     </div>
 
-    <div class="container d-block d-sm-none p-5">
+    <div class="container-fluid d-block d-lg-none p-5">
         <div>
+            <h2 class="d-block d-sm-none" style="text-align: center;">
+                Conf Bs As
+            </h2>
             <p style="text-align: center;">
                 Bs As llega por primera vez a la Argentina. Un evento para compartir con
                 nuestra comunidad el conovimiento y experiencia de los expertos que
@@ -68,7 +71,7 @@
                 nivel que tenemos para ti. Te esperamos!
             </p>
         </div>
-        <div class="row">
+        <div class="row" style="text-align: center;">
             <div class="col-6">
                 <button type="button" class="btn btn-outline-secondary border-grey border-2" style="color: black;">
                     Quiero ser orador
@@ -91,7 +94,7 @@
                 <div class="card" style="display: flex;">
                     <img class="card-img-top" src="img/steve.jpg" alt="Steve Jobs Card Image">
                     <div class="card-body">
-                        <p class="badge bg-warning">JavaScript</p>
+                        <p class="badge bg-warning" style="color: black;">JavaScript</p>
                         <p class="badge bg-info">React</p>
                         <h4 class="card-title">Steve Jobs</h4>
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et voluptatibus preferendis delenti, totam fuga sequi iste! Facilis Explicabo repellat ut similique incidunt? Ullam nobis beatae, corporis facilis veniam magni ratione!</p>
@@ -102,7 +105,7 @@
                 <div class="card" style="display: flex;">
                     <img class="card-img-top" src="img/bill.jpg" alt="Bill Gates Card Image">
                     <div class="card-body">
-                        <p class="badge bg-warning">JavaScript</p>
+                        <p class="badge bg-warning" style="color: black;">JavaScript</p>
                         <p class="badge bg-info">React</p>
                         <h4 class="card-title">Bill Gates</h4>
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et voluptatibus preferendis delenti, totam fuga sequi iste! Facilis Explicabo repellat ut similique incidunt? Ullam nobis beatae, corporis facilis veniam magni ratione!</p>
@@ -161,36 +164,31 @@
         </div>
     </div>
 
-    <nav class="navbar navbar-expand-sm mi-bg-footer">
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu-footer" aria-controls="menu-footer" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-center p-3" id="menu-footer">
-                <ul class="navbar-nav mb-2 mb-lg-0">
+    <nav class="navbar navbar-expand-xl mi-bg-footer">
+        <div class="container-fluid navbar-nav p-3 justify-content-center">
+                <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link estilo-txt-nav-foot px-3" href="#" >Preguntas<br>frecuentes</a>
+                        <a class="nav-link estilo-txt-nav-foot px-4" href="#">Preguntas<br>frecuentes</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link estilo-txt-nav-foot px-3" href="#">Contáctanos</a>
+                        <a class="nav-link estilo-txt-nav-foot px-4" href="#">Contáctanos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link estilo-txt-nav-foot px-3" href="#">Prensa</a>
+                        <a class="nav-link estilo-txt-nav-foot px-4" href="#">Prensa</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link estilo-txt-nav-foot px-3" href="#">Conferencias</a>
+                        <a class="nav-link estilo-txt-nav-foot px-4" href="#">Conferencias</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link estilo-txt-nav-foot px-3" href="#">Términos y<br>condiciónes</a>
+                        <a class="nav-link estilo-txt-nav-foot px-4" href="#">Términos y<br>condiciónes</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link estilo-txt-nav-foot px-3" href="#">Privacidad</a>
+                        <a class="nav-link estilo-txt-nav-foot px-4" href="#">Privacidad</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link estilo-txt-nav-foot" href="#">Estudiantes</a>
+                        <a class="nav-link estilo-txt-nav-foot px-4" href="#">Estudiantes</a>
                     </li>
                 </ul>
-            </div>
         </div>
     </nav>
 
