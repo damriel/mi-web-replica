@@ -80,3 +80,34 @@
     text-align: center;
     font-size: 1.1rem;
 }
+
+.mi-docum {
+    font-weight: 300;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.porcent-desc {
+    font-weight: 600;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.texto-tienen-desc {
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.texto-categoria {
+    font-weight: 600;
+    text-align: center;
+    font-size: 1.8rem;
+    padding-top: 0.8rem;
+}
+
+.boton-verde {
+    font-size: 1.5rem;
+    color: white;
+    background-color: #96C93E;
+    width: 100%;
+}
